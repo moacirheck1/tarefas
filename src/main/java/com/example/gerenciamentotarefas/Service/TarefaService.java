@@ -22,7 +22,7 @@ public class TarefaService {
         if (tarefa1 == null) {
             return null;
         } else
-            tarefa1.setId(id);
+            tarefa.setId(id);
         tarefaRepository.deletaTarefa(tarefa1);
         tarefaRepository.salvaTarefa(tarefa);
         return tarefa;
